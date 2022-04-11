@@ -1,0 +1,13 @@
+[client server]  <=>  [backend server]  <=>  [database server]
+
+one-tier-application
+[server] <=> [template engine]
+
+two-tiew-application
+[client server]  <=>  [server] 
+
+
+
+template engines:
+1. EJS
+2. PUG
