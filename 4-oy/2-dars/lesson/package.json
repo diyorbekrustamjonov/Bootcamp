@@ -1,0 +1,13 @@
+{
+  "name": "kun-uz",
+  "version": "1.0.0",
+  "description": "Kun uz site ning clone versiyasi!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["Kun.uz", "Kun blog", "Kun news"],
+  "author": "Diyorbek Rustamjonov <drustamjonov0919@gmail.com>",
+  "license": "MIT"
+}
