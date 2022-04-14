@@ -1,0 +1,21 @@
+{
+  "name": "lesson",
+  "version": "1.0.0",
+  "description": "Apollo server graphql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Diyorbek Rustamjonov",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.8",
+    "apollo-server": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

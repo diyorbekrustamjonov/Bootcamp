@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "apollo-server": "^3.6.7"
+  },
+  "name": "lesson",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Diyorbek Rustamjonov <drustamjonov0919@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

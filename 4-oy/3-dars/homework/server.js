@@ -33,7 +33,8 @@ const schema = gql`
         userId: Int!
         foodId: Int!
         count: Int!
-        foods: Food!
+        food: Food!
+        user: User!
     }
 
     type User{
@@ -68,8 +69,11 @@ const resolvers = {
         userId: (parnet) => parnet.user_id,
         foodId: (parnet) => parnet.food_id,
         count: (parnet) => parnet.count,
-        foods: (parnet) => {
+        food: (parnet) => {
             return foods.find(food => food.food_id === parnet.food_id)
+        },
+        user: (parnet) => {
+            return users.find(user => user.user_id === parnet.user_id)
         }
     },
 

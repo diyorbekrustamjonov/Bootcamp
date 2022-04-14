@@ -1,0 +1,23 @@
+type Query{
+    foods(foodId: ID): [Food!]!
+}
+
+type Food{
+    foodId: ID!
+    foodName: String!
+    foodImg: String!
+}
+
+
+
+type Mutation{
+    createFood(foodName: String!, foodImg: String!): foodResponse!
+    updateFood(foodId: ID!, foodName: String!, foodImg: String!): foodResponse!
+    deleteFood(foodId: ID!): foodResponse!
+}
+
+type foodResponse{
+    status: Int!
+    message: String!
+    data: Food
+}
