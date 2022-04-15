@@ -33,5 +33,15 @@
         "user_id": 8,
         "username": "Diyorbek3",
         "contact": "998992312433"
+    },
+    {
+        "user_id": 9,
+        "username": "admin123",
+        "contact": "998992312433"
+    },
+    {
+        "user_id": 10,
+        "username": "admin1234",
+        "contact": "998992312433"
     }
 ]

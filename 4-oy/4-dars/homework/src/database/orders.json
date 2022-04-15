@@ -46,5 +46,11 @@
         "user_id": 3,
         "food_id": 1,
         "count": 3
+    },
+    {
+        "order_id": 9,
+        "user_id": 1,
+        "food_id": 2,
+        "count": 1
     }
 ]

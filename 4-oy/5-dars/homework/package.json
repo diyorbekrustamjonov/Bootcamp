@@ -1,0 +1,21 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Odd and Even scalar types",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "Diyorbek Rustamjonov <drustamjonov0919@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "apollo-server-core": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
